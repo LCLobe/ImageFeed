@@ -1,0 +1,79 @@
+body{
+    background: gainsboro;
+    margin: 0;
+}
+body, .line{
+    background: gainsboro;
+}
+div{
+    box-sizing:border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+div.post{
+    background: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+ div.post img{
+    width: 100%;
+    /*object-fit: contain;*/
+    object-fit: cover;
+    max-height: 700px;
+    min-height: 500px;
+    display: block;
+}
+.photo{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.line {
+    height: 1px;
+    margin:0%;
+}
+div.post h2, div.post p{
+    padding: 15px;
+    margin:0%;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    color: gray;
+    padding-right: 20px;
+}
+h1, h2{
+    font-family: 'IM Fell English', serif;
+    font-size: 1.8em;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+}
+p strong{
+    font-family: "Times New Roman", Times, serif;
+}
+/*iv.post img::after, div.post img::before{
+    height: 1px;
+    background: gainsboro;
+}*/
+/*div.post .post-header div:last-child span{
+    color: gainsboro;
+    text-align: center;
+} */
